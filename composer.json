@@ -1,0 +1,22 @@
+{
+    "name": "slashdotapp/casino-balance",
+    "description": "Package that provide account balance and transactions functionality for Laravel 5+",
+    "keywords": ["vuer","laravel","balance","account","accounting"],
+    "authors": [
+        {
+            "name": "Rafal Szymanski",
+            "email": "vuer@post.pl"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.9|^8.1|^8.0|8.2",
+        "moneyphp/money": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vuer\\LaravelBalance\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
